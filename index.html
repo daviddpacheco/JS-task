@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Lista de Tarefas</h1>
+        <form id="taskForm">
+          <input type="text" id="taskInput" placeholder="Digite uma nova tarefa" required>
+          <button type="submit">Adicionar Tarefa</button>
+        </form>
+        <table>
+
+          <thead>
+            <tr>
+              <th>Descrição</th>
+              <th>Autor</th>
+              <th>Departamento</th>
+              <th>Duração</th>
+              <th>Importância</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Pagamento</td>
+              <td>João</td>
+              <td>TI</td>
+              <td>1h</td>
+              <td>Alta</td>
+          </tbody>
+
+        </table>
+
+        <ul id="taskList"></ul>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
